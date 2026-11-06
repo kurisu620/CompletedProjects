@@ -1,9 +1,9 @@
 import time
 import requests
 
-HOST = [hostAddress]
+HOST = "http://localhost"  # your SABnzbd address
 PORT = 8080
-API_KEY = [APIkey]
+API_KEY = ""               # your SABnzbd API key
 
 BASE_URL = f"{HOST}:{PORT}/api"
 SLEEP_SECONDS = 10
